@@ -155,6 +155,7 @@ public function ListarDocumentoProyecto($idProyecto){
         $consulta->execute(['id'=>$idProyecto]);
         return $consulta->fetchAll(PDO::FETCH_OBJ);
     }catch(Exeption $e){
+        
         die($e->getMessage());
     }
 }
@@ -239,13 +240,10 @@ $this->pdo->prepare($consulta)->execute(array(
    $p->getDescripcionProyecto(),
    $p->getfk_idcatProyecto(),
    $p->getPalabrasClaveProyecto(),
-   $p->getfk_idAprendiz(),
    $p->getCalificacion(),
    $p->getComentario(),
-   $p->getidProyecto()
-
-   
-        
+    $p->getfk_idAprendiz(),
+   $p->getidProyecto()        
 ));
 
 

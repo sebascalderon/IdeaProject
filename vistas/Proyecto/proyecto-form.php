@@ -284,7 +284,7 @@ document.onmousedown = right;
                     </div>
                     <div class="form-group">
                   <label for="Comentario" >Comentario</label>
-                  <input class="form-control" require autocomplete="off" type="text" id="Comentario" required name="Comentario"   placeholder="Agregue un comentario sobre el proyecto" value="<?=$p->getComentario()?>"/>
+                  <input class="form-control" require autocomplete="off" type="text" id="Comentario" required name="Comentario" require onkeypress="return soloLetras(event)"   placeholder="Agregue un comentario sobre el proyecto" value="<?=$p->getComentario()?>"/>
                 </div>
 
 
