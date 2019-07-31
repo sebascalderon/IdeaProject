@@ -1,0 +1,10 @@
+ Nombre(s) ; Apellido(s) ; Tipo de documento ; Numero de documento ; Correo electronico ; Correo institucional;Numero de la ficha        ;   Nota :  Para poder registrar aprendices  la ficha de caracterizacion debe estar creada anteriormente si esta no esta creada no se cargaran los datos 
+nombre1;apellido1;Cedula de ciudadania;1111;aaaa@gmail.com;aaaaa@misena.edu.co;1130600;
+nombre2;apellido2;Cedula de ciudadania;22222;nicolas97039@gmail.com;nalopez@misena.edu.co;1130600;
+nombre3;apellido3;Cedula de ciudadania;33333;aaaa@gmail.com;aaaaa@misena.edu.co;1130600;
+nombre4;apellido4;Cedula de ciudadania;44444;aaaa@gmail.com;aaaaa@misena.edu.co;1130600;
+nombre5;apellido5;Cedula de ciudadania;55555;nicolas97039@gmail.com;nalopez@misena.edu.co;1130600;
+nombre6;apellido6;Cedula de ciudadania;66666;aaaa@gmail.com;aaaaa@misena.edu.co;1130600;
+nombre7;apellido7;Cedula de ciudadania;77777;nicolas97039@gmail.com;nalopez@misena.edu.co;1130600;
+nombre8;apellido8;Cedula de ciudadania;88888;aaaa@gmail.com;aaaaa@misena.edu.co;1130600;
+nombre9;apellido9;Cedula de ciudadania;99999;nicolas97039@gmail.com;nalopez@misena.edu.co;1130600;

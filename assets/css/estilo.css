@@ -1,0 +1,320 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3{
+	font-family: cursive;
+	 color: #fff;
+	color: white;
+	text-shadow: 0 0 6px orange;
+}
+p{
+	font-family: cursive;
+	color: white;
+	text-shadow: 0 0 6px orange;
+}
+body{
+	background: url(../img/hoja.jpg) fixed center center;
+	background-size: cover;
+}
+header{
+	width: 100%;
+	height: 100px;
+	background: rgba(0,0,0,0.8);
+}
+a{
+	text-decoration: none;
+}
+header div{
+	max-width: 1000px;
+	min-width: 300px;
+	height: 100px;
+	margin: 0 auto;
+}
+header figure{
+	width:100px;
+	height:100px;
+	/*se borra para que quede solo el logo*//background:#fff;
+	float:left;
+	padding-top: 9px;
+	box-sizing: border-box;
+}
+header figure img{
+	height: 80px;
+}
+header nav{
+	width: 400px;
+	height:100px;
+	/*se borra para ququede solo el contenido de la caja*//background:#f57;
+	float: right;
+	padding-top: 55px;
+	box-sizing: border-box;
+}
+header nav a{
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	margin-left: 15px;
+	font-family: cursive;
+	transition: all 0.5s;
+}
+header nav a:hover{
+	color: gray;
+	text-shadow: 0 0 6px BLACK;
+}
+section {
+	width: 1000px;
+	height: 480px;
+	background: rgba(0, 0, 0, 0.8); /* espa paner el color y la transparencia*/
+	margin: 30px auto;/*primero es y(arriba y abajo) y segundo es la x (derecha y izquierda)*/
+}
+.glyphicon-envelope:before {
+  content: "\2709";
+}
+.glyphicon-earphone:before {
+  content: "\e182";
+}
+audio,
+canvas,
+progress,
+video {
+	object-fit: contain;
+  display: inline-block;
+  vertical-align: baseline;
+}
+ a.hola {
+    border: 1px solid rgba(251,75,43,0.3);
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 2.5em;
+    margin-bottom: 0;
+    padding: 0 1.5em;
+
+}
+.sinopsis{
+	position: center;
+}
+
+.sinopsis h1 .sinopsis img, .sinopsis{
+	position: center;
+}
+
+.sinopsis img{
+	z-index: 1;
+	/*width: 1000px;
+	height: 500px;
+	top: ;
+	right: ;
+	bottom: ;
+	left: ;*/
+}
+
+.sinopsis h1{
+	z-index: 5;
+	top:250px;
+	right: 490px;
+}
+.sinopsis p{
+	z-index: 3;
+	background: rgba(128,128,128,0.5);
+	padding: 25px;
+	width: 900px;
+	right: 0;
+	bottom: 150px;
+	text-align: justify;
+	//column-count: 1;
+	//column-gap: 100px;
+	border-radius: 30px 30px 30px 30px;
+	color:#f90;
+}
+.ima img{
+	border-radius: 30px 30px 30px 30px;
+}
+.blur:hover{
+	filter: blur(10px);
+}
+.brightness:hover{
+	filter: brightness(20%);
+}
+.contrast:hover{
+	filter: contrast(300%);
+}
+.grayscale:hover{
+	filter: grayscale(100%);
+}
+.hue:hover{
+	filter: hue-rotate(90deg);
+}
+.invert:hover{
+	filter: invert(100%);
+}
+.opacity:hover{
+	filter: opacity(0.2);
+}
+.saturate:hover{
+	filter: saturate(10%);
+}
+.sepia:hover{
+	filter: sepia(50%);
+}
+
+
+
+
+
+
+
+
+
+.panel-default > .panel-heading {
+    color: gray;
+    background-color: rgba(102, 102, 153,0.5);
+    border-color: gray;
+}
+.panel-heading{
+	background: rgba(0,0,0,0.5);
+	padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-bottom-color: transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel-default {
+    border-color: #ddd;
+}
+.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.panel-body {
+    padding: 15px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+form-control {
+    display: block;
+    width: 50%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.holaa:hover {
+	border: 1px solid rgba(251,75,43,0.3);
+    cursor: pointer;
+    background-color: gray;
+    width: 150px;
+}
+.holaa {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.panel-group .panel {
+    margin-bottom: 0;
+    border-radius: 4px;
+}
+.panel-default {
+    border-color: rgba(0,0,0,0.5);
+}
+.panel {
+    margin-bottom: 20px;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid transparent;
+        border-top-color: transparent;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        border-left-color: transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+.container {
+    width: 1170px;
+}
+.container {
+    width: 970px;
+}
+.container {
+    width: 550px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+
+
+div.portafolio{
+    margin: 3em auto;
+}
+div.portafolio article{
+    padding: 2em;
+    display: inline;
+}
+#redonda{
+    border-radius: 3.125em;/* 50px 16px*/
+    box-shadow: 5px 5px 10px rgba(255,255,255,.7);
+}
+
+
+.tt{
+    width: 850px;
+    height: 450px;
+}
+.hh{
+    width: 100px;
+}
+
+@media screen and (max-width: 1081px){
+    section.sinopsi{
+        max-width: 90%;
+    }
+}
+.jk{
+   height:  400px;
+}
