@@ -134,7 +134,7 @@ document.onmousedown = right;
 
 
 
- <div class="container-fluid"><br>
+ <div class="container-fluid"><br><br>
              <div class="row">
                     <div class="col-sm-12">
                         <div class="page-title-box">
@@ -187,7 +187,7 @@ document.onmousedown = right;
                                 </div>
                                 <div class="form-group">
                                      <label  for="Fecha">Fecha de entrega</label>                   
-                    <input class="form-control" autocomplete="off" name= "Fecha" id="FechaProyecto" type="text" placeholder="Ingrese la fecha de entrega del proyecto " value="<?=$p->getFechaProyecto()?>" required/> 
+                    <input class="form-control" autocomplete="off" name= "Fecha" id="FechaProyecto" type="Date" placeholder="Ingrese la fecha de entrega del proyecto " value="<?=$p->getFechaProyecto()?>" required/> 
                                 </div>
                                 <div class="form-group">
                                    <label  for="Descripcion">Descripción</label>                   

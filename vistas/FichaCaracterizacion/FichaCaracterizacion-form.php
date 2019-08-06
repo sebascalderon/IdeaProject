@@ -90,7 +90,7 @@
         });
     </script>
     
-</head>
+</head> <br>
  
     <body class="app sidebar-mini rtl" oncut="return false" oncopy="return false" onpaste="return false" oncut="return false">
    
@@ -109,7 +109,7 @@
 
       <main class="app-content">
        <div class="app-title">
-        <div class="container-fluid"><br>
+        <div class="container-fluid"><br><br>
              <div class="row">
                     <div class="col-sm-12">
                         <div class="page-title-box">

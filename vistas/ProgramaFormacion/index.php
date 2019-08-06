@@ -1,7 +1,7 @@
 <main class="app-content">
       <div class="app-title">
         
-        <div class="container-fluid"><br>
+        <div class="container-fluid"><br><br>
              <div class="row">
                     <div class="col-sm-12">
                         <div class="page-title-box">
@@ -20,14 +20,14 @@
             </div> 
       </div><br>
      
-      <div class="row">
+      <!--div class="row">
         <div class="col-md-12">
           <div class="tile">
             <div class="tile-body">
              <table id="demo-foo-pagination" class="table table-striped table-bordered toggle-circle m-b-0" data-page-size="7">
                 <thead>
                   <tr>
-                    <!-- <th>Id Programa De Formacion</th> -->
+                   
                     <th>Nombre del programa de formación</th>
                     <th>Modificar</th>
                   </tr>
@@ -36,7 +36,7 @@
                
                 <?php foreach($this->modelo->Listar() as $r):?>
                   <tr>
-                    <!-- <td><?=$r->idProgramaFormacion?></td> -->
+                   
                     <td><?=$r->NombreProgramaFormacion?></td>
                     <td><center><a class="colorb btn btn-primary" data-toggle="tooltip" data-placement="top" title="Modificar" href="?c=ProgramaFormacion&a=registrarProgramaFormacion&id=<?=$r->idProgramaFormacion?>"><i class="fa fa-gears" aria-hidden="true"></i></a></center></td>
 
@@ -47,7 +47,7 @@
             </div>
           </div>
         </div>
-      </div>  
+      </div-->  
     </main>
 
 
@@ -58,7 +58,7 @@
 
 
      <div class="content-wrapper">
-             <div class="container">
+             <div class="">
               <div class="card">
               
               <div class="card-body">

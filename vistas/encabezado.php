@@ -94,9 +94,9 @@
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                         <a class="dropdown-item" href="?c=contrasena&a=registrarContrasena"><i class="fa fa-cog fa-lg"></i>Contraseña</a>
                                     </a>
-                                     <!--a href="javascript:void(0);" class="dropdown-item notify-item">
+                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                        <a class="dropdown-item" href="?c=Usuario&a=cerrar"><i class="fa fa-sign-out fa-lg" ></i> Salir</a>
-                                    </a-->
+                                    </a>
                                     <?php endif;?>
                                      </li>
                                     <!-- item-->
@@ -121,8 +121,8 @@
                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                        <a class="dropdown-item" href="?c=contrasena&a=registrarContrasena"><i class="fa fa-cog fa-lg" ></i>Contraseña</a>
                                     </a>
-                                     <!--a href="javascript:void(0);" class="dropdown-item notify-item">
-                                       <a class="dropdown-item" href="?c=Usuario&a=cerrar"><i class="fa fa-sign-out fa-lg" ></i> Salir</a-->
+                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                       <a class="dropdown-item" href="?c=Usuario&a=cerrar"><i class="fa fa-sign-out fa-lg" ></i> Salir</a>
                                     </a>
 
                                 </div>
@@ -134,11 +134,41 @@
                                     <?php endif;?>
                                         
                                       </li>
-                                      <div class="container-fluid">
-                                           <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                        <li class="dropdown notification-list">
+                                     <?php if($_SESSION['Rol']=="Aprendiz"):?>
+                                    
+ 
+
+                                      <a  class="nav-link dropdown-toggle waves-effect nav-link" data-toggle="dropdown" href="#" role="button"
+                                   aria-haspopup="false" aria-expanded="false">
+                                    <span class="ml-1 pro-user-name " style="color:gray; font-size:15px;margin:12px;"><?php echo $_SESSION['Rol']?><img src="assets/img/usuario.svg"  style="height:34px; width:40px;color: gray;"> </span> 
+                                </a>
+
+                                   <div class="dropdown-menu dropdown-menu-right profile-dropdown ">
+
+
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                       <a class="dropdown-item" href="?c=perfil&a=registrarPerfil" ><i class="fa fa-user fa-lg" ></i> Modificar perfil</a>
+                                    </a>
+
+                                    <!-- item-->
+                                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                       <a class="dropdown-item" href="?c=contrasena&a=registrarContrasena"><i class="fa fa-cog fa-lg" ></i>Contraseña</a>
+                                    </a>
+                                     <a href="javascript:void(0);" class="dropdown-item notify-item">
                                        <a class="dropdown-item" href="?c=Usuario&a=cerrar"><i class="fa fa-sign-out fa-lg" ></i> Salir</a>
                                     </a>
-                                      </div>
+
+                                </div>
+                                
+                            
+                        
+                      
+                                   
+                                    <?php endif;?>
+                                        
+                                      </li>
+                                      
                                      
                                     <!-- item-->
                                     
@@ -185,6 +215,11 @@
                                     
                                 </ul>
                             </li>
+                                        
+
+
+
+
                             <li class="has-submenu">
                                 <a class="app-menu__item" href=""><i class="app-menu__icon fa fa-child" style="color:#fc7323;"></i><span   style="font-weight:900" class="app-menu__label">Aprendiz</span></a>
                                 <ul class="submenu megamenu">
@@ -254,6 +289,59 @@
                                     
                                 </ul>
                             </li>
+
+
+
+
+                        
+                  <li class="has-submenu">
+                    <a class="app-menu__item" href="?c=Proyecto"><i class="app-menu__icon colorp fa fa-book"  style="color:#fc7323;"  ></i><span  style="font-weight:900" class="app-menu__label">Coordinaciones</span></a>
+  
+                 <ul class="submenu">
+                      <li class="has-submenu">
+                                        <a href="#">Mantenimiento</a>
+                                        <ul class="submenu">
+                                            <li><a href="email-inbox.html">Registrar</a></li>
+                                            <li><a href="email-read.html">Listar Proyecto</a></li>
+                                                        
+                                        </ul>
+                                    </li>
+
+
+
+                                    <li class="has-submenu">
+                                        <a href="#">Mercadeo</a>
+                                        <ul class="submenu">
+                                            <li><a href="email-inbox.html">Registrar</a></li>
+                                            <li><a href="email-read.html">Listar Proyecto</a></li>
+                                                      
+                                        </ul>
+                                    </li>
+
+
+                                    <li class="has-submenu">
+                                        <a href="#">Redes</a>
+                                        <ul class="submenu">
+                                            <li><a href="email-inbox.html">Registrar</a></li>
+                                            <li><a href="email-read.html">Listar Proyecto</a></li>
+                                                       
+                                        </ul>
+                                    </li>
+
+                                    <li class="has-submenu">
+                                        <a href="#">Logistica</a>
+                                        <ul class="submenu">
+                                            <li><a href="email-inbox.html">Registrar</a></li>
+                                            <li><a href="email-read.html">Listar Proyecto</a></li>
+                                                        
+                                        </ul>
+                                    </li>
+                 </ul>
+                 </li>
+
+
+
+
 
                         </ul>
                         <?php endif;?>

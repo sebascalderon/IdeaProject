@@ -142,7 +142,7 @@ box-shadow: 18px 5px 84px -21px rgba(51,122,183,0.54);
     
     <main class="app-content">
     <div class="container" >
-       <br><br><br>
+       <br><br><br><br><br>
         <div id="mensaje" class="alert alert-success alert-dismissible">
             <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
             <strong > !!Bienvenido  : </strong> <?php echo $_SESSION ['Rol'] ?>.

@@ -112,7 +112,7 @@
       <main class="app-content">
        <div class="app-title"><br>
         
-         <div class="container-fluid">
+         <div class="container-fluid"><br>
              <div class="row">
                     <div class="col-sm-12">
                         <div class="page-title-box">
@@ -134,7 +134,7 @@
       
            
               
-            
+            <br>
               <div class="card">
               
               <div class="card-body">

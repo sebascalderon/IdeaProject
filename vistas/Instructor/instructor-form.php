@@ -172,7 +172,7 @@ $('#pass2').keyup(function() {
            </ul>
            </div>
       
-            <div class="">
+            <div class=""><br>
             <div class="container-fluid">
              <div class="row">
                     <div class="col-sm-12">
